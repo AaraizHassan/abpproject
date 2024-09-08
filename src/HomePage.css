@@ -386,6 +386,28 @@ section {
   padding: 60px 20px;
 }
 
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.faq-answer {
+  padding: 10px;
+  background-color: #fafafa;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+
 /* Content Section Styling (Slider + Mission & Vision) */
 .content-section {
   display: flex;

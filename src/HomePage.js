@@ -368,12 +368,34 @@ const HomePage = () => {
                 </div>
                 <div className="faq-item">
                     <div className="faq-question" onClick={() => toggleFAQ(1)}>
-                        <span>How do I get started?</span>
+                        <span>Is there any registeration fees?</span>
                         <span>{activeFAQ === 1 ? '-' : '+'}</span>
                     </div>
                     {activeFAQ === 1 && (
                         <div className="faq-answer">
-                            <p>To get started, you need to...</p>
+                            <p>Yes, a registeration fees of Rs 5000 or USD 50 also applies unless stated otherwise.</p>
+                        </div>
+                    )}
+                </div>
+                <div className="faq-item">
+                    <div className="faq-question" onClick={() => toggleFAQ(2)}>
+                        <span>Will my scores improve after taking classes?</span>
+                        <span>{activeFAQ === 2 ? '-' : '+'}</span>
+                    </div>
+                    {activeFAQ === 2 && (
+                        <div className="faq-answer">
+                            <p>Most of my students improved their scores. However, the extent of improvement highly depends on attendance in classes and practice outside the class timings.</p>
+                        </div>
+                    )}
+                </div>
+                <div className="faq-item">
+                    <div className="faq-question" onClick={() => toggleFAQ(3)}>
+                        <span>What is the free trial?</span>
+                        <span>{activeFAQ === 3 ? '-' : '+'}</span>
+                    </div>
+                    {activeFAQ === 3 && (
+                        <div className="faq-answer">
+                            <p>It is a Trial/Demo session of your chosen topic for a duration of 30 minutes.</p>
                         </div>
                     )}
                 </div>
