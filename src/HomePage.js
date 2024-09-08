@@ -295,6 +295,7 @@
 
 import React, { useState, useEffect } from 'react';
 import './HomePage.css'; // Ensure you have this CSS file
+import logoimage from './logopics/High Regulation/Work 1 black.jpg';
 
 const HomePage = () => {
     const [activeFAQ, setActiveFAQ] = useState(null);
@@ -305,8 +306,8 @@ const HomePage = () => {
     };
 
     const videos = [
-        "https://www.youtube.com/embed/your_video_id_1",
-        "https://www.youtube.com/embed/your_video_id_2",
+        "https://www.youtube.com/embed/d8gqXgLzSDk?si=v9Y1p7H9TEAOjYXC",
+        "https://www.youtube.com/embed/VwSFpOGAwKg?si=GmEegiiwDJAJqBv1",
         "https://www.youtube.com/embed/your_video_id_3"
         // Add more video URLs as needed
     ];
@@ -323,17 +324,17 @@ const HomePage = () => {
             {/* Top Navigation Bar */}
             <div className="top-bar">
                 <div className="contact-info">
-                    <span>📞 +1 (123) 456-7890</span>
-                    <span>✉️ contact@myapp.com</span>
+                    <span>📞 +92 328 5399335</span>
+                    <span>✉️ pa@abdulbasitpawar.com</span>
                     <span>🕒 Time Zone: PST</span>
                 </div>
             </div>
 
             {/* Main Navigation Bar */}
             <nav className="navbar">
-                <div className="logo">MyAppLogo</div>
+            <img className='logo' src={logoimage} alt="" />
                 <ul className="nav-links">
-                    <li><a href="#home">Home</a></li>
+                    <li><a href="#contact-info">Home</a></li>
                     <li className="dropdown">
                         <button className="dropbtn">More</button>
                         <div className="dropdown-content">
@@ -341,6 +342,7 @@ const HomePage = () => {
                             <a href="#content-section">Mission & Vision</a>
                         </div>
                     </li>
+                    <li><a href="https://wa.me/message/CASFE6CD3FVQI1">Free Trial</a></li>
                 </ul>
             </nav>
 
@@ -355,12 +357,12 @@ const HomePage = () => {
                 <h2>Frequently Asked Questions</h2>
                 <div className="faq-item">
                     <div className="faq-question" onClick={() => toggleFAQ(0)}>
-                        <span>What is MyApp?</span>
+                        <span>Do I need to pay the fees in advance?</span>
                         <span>{activeFAQ === 0 ? '-' : '+'}</span>
                     </div>
                     {activeFAQ === 0 && (
                         <div className="faq-answer">
-                            <p>MyApp is a platform that allows users to...</p>
+                            <p>Yes, you need to pay the monthly tuition fee after Free Trial/Demo session.</p>
                         </div>
                     )}
                 </div>
@@ -399,10 +401,24 @@ const HomePage = () => {
                     </div>
                 </div>
                 <div className="mission-vision">
-                    <h2>Our Mission</h2>
-                    <p>Our mission is to...</p>
-                    <h2>Our Vision</h2>
-                    <p>Our vision is to...</p>
+                    <h2>My Mission</h2>
+                    <p>My mission is to provide a 
+                        transformative educational experience that 
+                        fosters intellectual curiosity, critical 
+                        thinking, and innovation. I am committed 
+                        to equipping students with the 
+                        knowledge, skills, and ethical foundations 
+                        necessary to excel in their chosen 
+                        fields and to contribute positively to society.
+                    </p>
+                    <h2>My Vision</h2>
+                    <p>My vision is to be a leading 
+                        academic institution recognized for excellence 
+                        in education, research, and community 
+                        engagement. I aspire to create a dynamic 
+                        learning environment that embraces diversity, 
+                        promotes inclusivity, and drives social progress.
+                    </p>
                 </div>
             </section>
         </div>
