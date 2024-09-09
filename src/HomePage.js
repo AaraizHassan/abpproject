@@ -68,7 +68,7 @@ const HomePage = () => {
                             <a href="#faqs">FAQ's</a>
                         </div>
                     </li>
-                    <li><a href="https://wa.me/message/CASFE6CD3FVQI1">Free Trial</a></li>
+                    <li className='freetrial'><a href="https://wa.me/message/CASFE6CD3FVQI1">Free Trial</a></li>
                 </ul>
             </nav>
             {/* Content Section (Slider + Mission & Vision) */}
