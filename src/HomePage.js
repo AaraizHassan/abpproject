@@ -115,6 +115,29 @@ const HomePage = () => {
                 </div>
             </section>
 
+            <section className="achievement-grid">
+                <div className="achievement">
+                    <h2>770/800</h2>
+                    <p>SAT (Math)</p>
+                </div>
+                <div className="achievement">
+                    <h2>169/170</h2>
+                    <p>GRE Quan</p>
+                </div>
+                <div className="achievement">
+                    <h2>100+</h2>
+                    <p>Students assisted</p>
+                </div>
+                <div className="achievement">
+                    <h2>5.0</h2>
+                    <p>Ratings</p>
+                </div>
+                <div className="achievement">
+                    <h2>LUMS</h2>
+                    <p>Alumni</p>
+                </div>
+            </section>
+            
             {/* Home Section */}
             <section id="qualification" className='qualification'>
                 <h1>Qualification</h1>

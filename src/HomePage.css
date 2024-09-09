@@ -24,10 +24,10 @@
   justify-content: space-between;
   align-items: center;
   background-color: #444;
-  padding: 10px 20px;
+  padding: 10px;
   /* position: fixed; */
   margin-top: 0%;
-  width: 100%;
+  width: 98.7%;
   z-index: 1000;
 }
 
@@ -129,6 +129,32 @@
   font-size: 16px;
   line-height: 1.6;
 }
+
+.achievement-grid {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%; /* Adjust the padding as needed */
+  background-color: #fff; /* Adjust the background color as needed */
+  text-align: center;
+  margin-top: 20px; /* Adjust the margin to space it from other sections */
+}
+
+.achievement {
+  flex: 1;
+  margin: 0 10px; /* Adjust the margin to space out the items */
+}
+
+.achievement h2 {
+  font-size: 1.5rem; /* Adjust the font size for the headings */
+  margin-bottom: 0.5rem; /* Adjust the space between heading and paragraph */
+  color: #000; /* Adjust the text color */
+}
+
+.achievement p {
+  font-size: 1rem; /* Adjust the font size for the subheading */
+  color: #666; /* Adjust the text color */
+}
+
 
 /* Qualification Section */
 .qualification {
